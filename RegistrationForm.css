@@ -1,7 +1,27 @@
-/* li {
-    display: inline;
-    float: right;
-} */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    margin-bottom: 30px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
 
 
 /* Table tag css */
@@ -12,9 +32,11 @@ td {
     border: 1px solid black;
     padding: 7px;
     margin: 6px;
+    margin-top: 30px;
 }
 
 table {
+    margin-top: 20px;
     background-color: rgb(82, 133, 116);
     border-collapse: collapse;
     margin: auto;
